@@ -1,8 +1,7 @@
 # Webpack Basics
 Learning how to use webpack & webpack server
 
-## Requirements
-Install the following npm packages:
+## Install
 • `webpack`
 • `webpack-cli`
 • `webpack-dev-server`
