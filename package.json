@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --entry ./src/js/app.js --output-filename ./dist/bundle.js"
+    "build": "webpack --entry ./src/js/app.js --output-filename ./bundle.js --mode production"
   },
   "repository": {
     "type": "git",
@@ -14,5 +14,11 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "homepage": "https://github.com/markjnkim/webpack_dev_server#readme"
+  "homepage": "https://github.com/markjnkim/webpack_dev_server#readme",
+  "dependencies": {
+    "webpack": "^4.41.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.10"
+  }
 }
