@@ -21,9 +21,5 @@ function updateSecretButton() {
 }
 
 function updateSecretParagraph() {
-    if (showSecret) {
-        secretParagraph.style.display = 'block';
-    } else {
-        secretParagraph.style.display = 'none';
-    }
+   showSecret ? secretParagraph.style.display = 'block' : secretParagraph.style.display = 'none
 }
