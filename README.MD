@@ -1,7 +1,7 @@
 # Webpack Basics
 Learning how to use webpack & webpack server
 
-## Install
-• `webpack`
-• `webpack-cli`
-• `webpack-dev-server`
+## Install </br>
+• `webpack` </br>
+• `webpack-cli`</br>
+• `webpack-dev-server`</br>
